@@ -1,0 +1,36 @@
+.todo {
+            background: white;
+            width: 600px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+            text-align: center;
+            margin:40px auto;
+        }
+        .todo h3 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #4e6f7a;
+        }
+        .todo input[type="text"] {
+            width: 70%;
+            padding: 6px;
+        }
+        .todo button {
+            padding: 6px 10px;
+            background: #aedef0;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .todo ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+        .todo li {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
